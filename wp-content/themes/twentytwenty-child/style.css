@@ -1,0 +1,318 @@
+/*
+ Theme Name:     TwentyTwenty Child Theme
+ Theme URI:      https://openclassrooms.com/
+ Description:    TwentyTwenty Child Theme
+ Author:         Child Themes
+ Author URI:     https://openclassrooms.com/
+ Template:       twentytwenty
+ Version:        1.0.0
+*/
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+/* header*/
+
+.hfe-nav-menu{
+    text-align: center;
+    align-items: center;
+}
+
+.elementor a {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+/* homepage*/
+.rencontrer-flower{
+    margin-top:0px;
+    margin-left:100px;
+}
+
+
+
+/* nous recontrer */
+#title-nous-rencontrer{
+    font-size:10px;
+}
+
+
+
+#leaf-rencontrer {
+    margin-bottom: 0%;
+    margin-right:200px;
+}
+
+.wpforms-submit-container {
+    display:grid;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    width: 50% !important;
+}
+
+
+
+.rencontrer-flower{
+    width: 145px;
+    height:150px;
+    
+    
+}
+
+
+/* Commander*/
+#info-form{
+    width: 915px;
+    margin:0;
+    max-height:500px !important;
+    
+}
+
+
+#number{
+    width:60px;
+    height: 56px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+
+#commander-ok{
+    width:100px;
+    height:56px;
+}
+
+.group-ok{
+    padding:0;
+    margin:0;
+}
+
+.group-image{
+    padding:0;
+    margin:0;
+}
+
+.form-titles{
+    padding-bottom:0 !important;
+}
+
+#divider-command{
+    height: 500px;
+}
+.wpforms-field-label{
+    font-weight: 400 !important;
+}
+
+.wpf-button-commander{
+    align-content: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-weight: 400 !important;
+    font-size: 14px !important; 
+    width:198px !important;
+    height:55px !important;
+
+}
+
+.contact{
+    width:383px !important;
+    
+}
+.contact1{
+    width:383px!important;
+    margin-right:110px !important;
+}
+
+.bar-vertical{
+        border-left: 1px solid white;
+        display: inline-block;
+        height: 355px !important;
+        margin-top: 120px !important;
+        margin-left:140px;
+        
+    
+}
+
+
+
+
+/* Media Queries    */ 
+
+@media (max-width: 1140px){
+
+    .wp-image-73{
+        margin-top: 140px;
+        margin-left: 225px;
+    }
+
+    .wp-image-71{
+        margin-top: 140px;
+        margin-left:20px;
+    }
+    
+    #leaf-left{
+        margin-left: 245px;
+    }
+    
+    .title-nous-rencontrer{
+        font-size:10px;
+    }
+    #rencontrer-flower{
+        margin-left: 20%;
+        width: auto;
+        height: auto;
+        width: 145px;
+        height:150px;
+    }
+    
+    .leaf-right {
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+
+    .leaf-left{
+        margin-left: 50%;
+    }
+
+    .leaf-rencontrer {
+        margin-bottom: 0%;
+        margin-left:250px !important;
+        width: 150px;
+        height:219px;
+    
+    }
+
+    .elementor-19{
+        width:100%;
+    }
+
+    #number{
+        width:50px;
+    }
+
+    .commande-group{
+        align-self: center;
+    }
+
+    #commander-ok{
+        width:65px;
+        height:56px;
+    }
+
+    .bar-vertical{
+        margin-left: 275px;
+        height:345px !important;
+    }
+
+    .livraison-commander{
+        margin-left: 140px;
+    }
+    
+    
+}
+
+
+
+
+
+@media ( max-width:768px){
+    .nav-menu-header{
+        display: inline-block;
+        
+    }
+    
+
+    .leaf-rencontrer {
+        display: none;
+    }
+
+
+    .wp-image-73{
+        margin-top: 140px;
+        margin-left: 225px;
+    }
+
+    .wp-image-71{
+        margin-top: 140px;
+        margin-left:20px;
+    }
+
+    #commander-ok{
+        width:60px;
+        height:56px;
+    }
+
+    #number{
+        width:50px;
+    }
+
+    .contact1{
+        width:250px !important;
+        margin-right:135px !important;
+    }
+    
+    .contact{
+        width:250px !important;
+        margin-left:60px !important;
+    }
+
+    .info-form{
+        
+    }
+
+    .bar-vertical{
+        height:345px !important;
+        margin-left:140px !important;
+    }
+    .livraison-commander{
+        margin-left: 140px;
+    }
+
+    .livraison-commander{
+        margin-left: 40px;
+    }
+    
+}
+
+
+@media (max-width:425px){
+
+    #title-nous-rencontrer {
+        font-size:155px;
+        padding-top: 30px;
+    }
+
+    #rencontrer-flower{
+        margin-top:35%;
+        margin-left: 5%;
+        width: 145px;
+        height:150px;
+    }
+
+    .contact1, .contact{
+        margin-left:0px !important;
+        width:300px !important;
+    }
+
+    .info-form{
+        width:350px !important;
+        margin-bottom:500px !important;
+        max-height: 700px !important;
+        margin-left:55px !important;
+    }
+
+    .wpf-button-commander{
+        margin-left:-40px !important;
+    }
+    .bar-vertical{
+        display: none;
+    }
+
+    .livraison-commander{
+        margin-left: 0px;
+    }
+}
+
