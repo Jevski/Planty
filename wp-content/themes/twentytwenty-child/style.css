@@ -72,17 +72,18 @@
 }
 
 
-#number{
-    width:60px;
-    height: 56px;
+#numbers{
+    background-color: aqua;
+    width:60px !important;
+    height: 56px !important;
     font-size: 25px;
     border-radius: 5px;
 }
 
 
-#commander-ok{
-    width:100px;
-    height:56px;
+.commander-ok{
+    width:300px !important;
+    height:56px !important;
 }
 
 .group-ok{
@@ -189,7 +190,7 @@
         width:100%;
     }
 
-    #number{
+    .numbers{
         width:50px;
     }
 
@@ -245,7 +246,7 @@
         height:56px;
     }
 
-    #number{
+    .numbers{
         width:50px;
     }
 
